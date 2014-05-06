@@ -11,15 +11,25 @@ body {
 	color: #fff;
 	text-align: center;
 	font-family: helvetica;
+	font-size: 11pt;
 }
 
- h1, h2 {
-	color: #0c1828;
+ h1 {
+	font-size: 50pt;
+	margin-top: -5px;
+	margin-bottom: 3px;
+	color: #2C3539;
+	font-family: 'Amatic SC', cursive;
 }
 
-h3 {
-	color: #fff;
+ h2 {
+	font-size: 25pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #2C3539;
+	font-family: 'Amatic SC', cursive;
 }
+
 
 
 ul {
@@ -35,27 +45,44 @@ a{
 	color:#fff;
 }
 
+#eric {
+	margin: 0px auto 0 auto;
+	display: block;
+}
+
+#nothinghere {
+	margin: 20% auto;
+}
 
 .box {
 	background-color: rgba(0,0,0,.5);
 	float: left;
+	width: 100%;
 }
 
-.list-description {
+.list-2 {
 	max-width: 80%;
 	margin: 0px auto;
 }
 
-.list-dates {
+.list-3 {
 	margin-bottom: 15px;
 }
 
 
 .content {
-	width: 50%;
+	width: 33%;
 	min-width: 250px;
 	float: left;
 	margin: 0px auto;
+}
+
+.content h2 {
+	font-size: 25pt;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	color: #fff;
+	font-family: 'Amatic SC', cursive;
 }
 
 @media screen and (max-width: 510px) {
@@ -64,5 +91,44 @@ a{
 	float: left;
 	margin: 0px auto;
 }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+.content {
+width: 100%;
+float: left;
+margin: 0px auto;}
+
+#eric {
+	margin: 0px auto 0 auto;
+	display: block;
+	width: 80%
+}
+
+h1 {
+	font-size: 50pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #2C3539;
+	font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+	font-size: 40pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #2C3539;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+body {
+	color: #fff;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 22pt;
+}
+
+
 }
 
